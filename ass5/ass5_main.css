@@ -1,0 +1,24 @@
+#topic1, #comment1, #comment2{
+    width: 10%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+textarea[name=text1]{
+    width: 10%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button[type=button]{
+    width: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(169, 170, 224) ;
+    font-family: 'Courier New', Courier, monospace;
+}
+button[type=button1]{
+    width: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(231, 187, 187) ;
+    font-family: 'Courier New', Courier, monospace;
+}

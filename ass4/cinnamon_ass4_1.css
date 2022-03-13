@@ -1,0 +1,150 @@
+body{
+	background-color: burlywood;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#header{
+    background: white ;
+    width: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 24px;
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: auto;
+   }
+hr{
+    width: 30%;
+    border-top: 1px solid black;
+}
+#main1{
+    background: white ;
+    width: auto;
+    padding: 10px;
+    border-radius: 24px;
+    grid-column: 1 / span 2;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topic2{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.img_ingredients{
+    display: flex;
+    position: flex;
+    width: auto;
+}
+.img_ingredients img{
+    width: 250px;
+}
+.img_step img{
+    width: 250px;
+}
+.ingredients{
+    text-align: left;
+    width: auto;
+    padding: 10px;
+}
+span{
+    color: brown;
+}
+#main2{
+    font-family: 'Courier New', Courier, monospace;
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    background-color:#FAF6F5;
+    margin-top: 30px;
+    border-radius: 24px;
+}
+.topic3{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.method{
+    display: flex;
+    flex-wrap: wrap;
+    position: flex;
+    justify-content: center;
+}
+#main3, #main4, #main5, #main6, #main7, #main8, #main9, #main10{
+    font-family: 'Courier New', Courier, monospace;
+    /*grid-column: 1 / span 1;*/
+    text-align: center;
+    /*padding: 10px;
+    width: auto;
+    background-color:#FAF6F5;
+    margin-top: 30px;
+    border-radius: 24px;*/
+}
+.howto{
+    padding: 10px;
+    border-radius: 24px;
+    background-color: white;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+a:visited{
+	color: rgb(0, 0, 0);
+}
+a:hover{
+	color: rgb(179, 124, 231);
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(156, 77, 60);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .grid-container {
+     display: grid;
+     grid-template-columns: auto;
+    }
+   
+    #header{
+     grid-column: 1 / span 1;
+    }
+    #main1{
+        grid-column: 1 / span 1;
+    }
+    #main2{
+        grid-column: 1 / span 1;
+    }
+    #main3{
+        grid-column: 1 / span 1;
+        
+    }
+    #main4{
+        grid-column: 1 / span 1;
+    }
+    #main5{
+        grid-column: 1 / span ;
+    }
+    #main6{
+        grid-column: 1 / span ;
+    }
+    #main7{
+        grid-column: 1 / span ;
+    }
+    #main8{
+        grid-column: 1 / span ;
+    }
+    #main9{
+        grid-column: 1 / span ;
+    }
+    #main10{
+        grid-column: 1 / span ;
+    }
+}

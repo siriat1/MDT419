@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(189, 196, 123);
+}
+
+input[type=submit]{
+    width: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(235, 215, 156) ;
+}
+input[type=reset]{
+    width: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgb(160, 153, 196) ;
+}
